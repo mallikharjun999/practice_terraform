@@ -1,0 +1,9 @@
+commands to pass according to environmemts
+
+$ terraform apply -var-file "dev.tfvars"  -auto-approve      ( to create resource )
+
+$ terraform destroy -var-file "dev.tfvars"  -auto-approve    (to destroy resource )
+
+
+note :  IF YOU OBSERVE THE ABOVE COMMANDS WE CAN SEE "dev.tfvars" so that we can pass the arguments through commandline for desired environment we want at the time 
+        of EXECUTION
